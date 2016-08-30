@@ -38,6 +38,7 @@ alice_df.to_csv('C:\\Users\\Z062892\\Desktop\\Diwali\\Training\\UCBerkeley\\Day1
 # How many times does the word "alice" occur in the book
 print("The word alice occurs : " + str(wordList['alice']) + " times in the whole book")   # 313 times
 
+### Question 4
 # What is the longest word in Alice in Wonderland? How many characters does it have?
 alice_df.Word[alice_df.Word.str.len() == alice_df.Word.str.len().max()]  # importantunimportantunimportantimportant
 alice_df.Word.str.len().max() # length is 40
